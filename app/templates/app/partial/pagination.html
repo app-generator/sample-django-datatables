@@ -3,7 +3,7 @@
         <nav aria-label="Page navigation example">
             <ul class="pagination mb-0">
                 <li class="page-item">
-                    <a class="page-link" {% if items.has_previous %}href="?page={{ items.previous_page_number }}"{% endif %}>Previous</a>
+                    <a class="page-link" {% if items.has_previous %}href="?page={{ items.previous_page_number }}{% if url_params %}&{{ url_params }}{% endif %}"{% endif %}>Previous</a>
                 </li>
 
                 {% for page_number in page_range %}
@@ -13,13 +13,13 @@
                         </li>
                     {% else %}
                         <li class="page-item">
-                            <a class="page-link" {% if page_number != '...' %}href="?page={{ page_number }}"{% endif %}>{{ page_number }}</a>
+                            <a class="page-link" {% if page_number != '...' %}href="?page={{ page_number }}{% if url_params %}&{{ url_params }}{% endif %}"{% endif %}>{{ page_number }}</a>
                         </li>
                     {% endif %}
                 {% endfor %}
 
                 <li class="page-item">
-                    <a class="page-link" {% if items.has_next %}href="?page={{ items.next_page_number }}"{% endif %}>Next</a>
+                    <a class="page-link" {% if items.has_next %}href="?page={{ items.next_page_number }}{% if url_params %}&{{ url_params }}{% endif %}"{% endif %}>Next</a>
                 </li>
             </ul>
         </nav>

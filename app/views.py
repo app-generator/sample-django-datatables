@@ -4,6 +4,7 @@ Copyright (c) 2019 - present AppSeed.us
 """
 
 from django.contrib.auth.decorators import login_required
+from django.db.models import Q
 from django.shortcuts import render, get_object_or_404, redirect
 from django.template import loader
 from django.http import HttpResponse, JsonResponse, QueryDict
@@ -96,7 +97,19 @@ class TransactionView(View):
     """ Get pages """
 
     def list(self, request):
-        transactions = Transaction.objects.all()
+        filter_params = None
+
+        search = request.GET.get('search')
+        if search:
+            filter_params = None
+            for key in search.split():
+                if key.strip():
+                    if not filter_params:
+                        filter_params = Q(bill_for__icontains=key.strip())
+                    else:
+                        filter_params |= Q(bill_for__icontains=key.strip())
+
+        transactions = Transaction.objects.filter(filter_params) if filter_params else Transaction.objects.all()
 
         self.context['transactions'], self.context['info'] = set_pagination(request, transactions)
         if not self.context['transactions']:
