@@ -84,7 +84,7 @@ class TransactionView(View):
 
     def delete(self, request, pk, action=None):
         transaction = self.get_object(pk)
-        # transaction.delete()
+        transaction.delete()
 
         redirect_url = None
         if action == 'single':
