@@ -25,7 +25,7 @@
                 </a>
             </li>
             <li class="nav-item  {% if 'transactions' in segment %} active {% endif %}">
-                <a href="/transactions.html" class="nav-link">
+                <a href="{% url 'transactions' %}" class="nav-link">
                     <span class="sidebar-icon"><span class="fas fa-hand-holding-usd"></span></span>
                     <span>Transactions</span>
                 </a>

@@ -1,0 +1,41 @@
+{% if form %}
+    <td>{{ instance.id }}</td>
+    <form>
+        {% for field in form %}
+            <td>{{ field }}</td>
+        {% endfor %}
+    </form>
+    <td>
+        <button class="btn-sm btn-warning cancel_form"><i class="fa fa-times-circle"></i></button>
+        <button class="btn-sm btn-success save_form"><i class="fa fa-save"></i></button>
+    </td>
+{% else %}
+    <td><span class="font-weight-bold">{{ instance.id }}</span></td>
+    <td><span class="font-weight-normal">{{ instance.bill_for }}</span></td>
+    <td><span class="font-weight-normal">{{ instance.issue_date|date:"d M Y" }}</span></td>
+    <td><span class="font-weight-normal">{{ instance.due_date|date:"d M Y" }}</span></td>
+    <td><span class="font-weight-bold">${{ instance.total }}</span></td>
+    <td>
+        <span class="font-weight-bold {{ instance.status_info.class }}">{{ instance.status }}</span>
+    </td>
+    <td>
+        <div class="btn-group">
+            <button class="btn btn-link text-dark dropdown-toggle dropdown-toggle-split m-0 p-0"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <span class="icon icon-sm">
+                        <span class="fas fa-ellipsis-h icon-dark"></span>
+                    </span>
+                <span class="sr-only">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item edit_item" href="{% url 'transactions' instance.id 'edit' %}">
+                    <span class="fas fa-edit mr-2"></span>Edit
+                </a>
+                <a class="dropdown-item text-danger delete_item"
+                   data-href="{% url 'transactions' instance.id %}">
+                    <span class="fas fa-trash-alt mr-2"></span>Remove
+                </a>
+            </div>
+        </div>
+    </td>
+{% endif %}

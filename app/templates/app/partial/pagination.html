@@ -1,0 +1,28 @@
+{% if items.has_previous or items.has_next %}
+    <div class="card-footer px-3 border-0 d-flex align-items-center justify-content-between">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination mb-0">
+                <li class="page-item">
+                    <a class="page-link" {% if items.has_previous %}href="?page={{ items.previous_page_number }}"{% endif %}>Previous</a>
+                </li>
+
+                {% for page_number in page_range %}
+                    {% if items.number == page_number %}
+                        <li class="page-item active">
+                            <a class="page-link">{{ page_number }}</a>
+                        </li>
+                    {% else %}
+                        <li class="page-item">
+                            <a class="page-link" {% if page_number != '...' %}href="?page={{ page_number }}"{% endif %}>{{ page_number }}</a>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+
+                <li class="page-item">
+                    <a class="page-link" {% if items.has_next %}href="?page={{ items.next_page_number }}"{% endif %}>Next</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="font-weight-bold small">Showing <b>{{ items.number }}</b> out of <b>{{ last }}</b> entries</div>
+    </div>
+{% endif %}
