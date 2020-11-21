@@ -49,6 +49,10 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt/master/media/django-dashboard-volt-screen.png)
 
+![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_1.png)
+
+![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_2.png)
+
 <br />
 
 ## How to use it
@@ -85,6 +89,17 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 > Note: To use the app, please access the registration page and create a new user. After authentication, the app will unlock the private pages.
 
 <br />
+
+## Load Data For Datatable
+
+In Django admin, you can import data for the **Sales** section. 
+To do this just click on ```IMPORT``` button then select your csv, xls or etc file and submit it.
+
+![Import Data](https://raw.githubusercontent.com/app-generator/django-simple-charts/master/media/admin_import.png)
+
+> Sample **[Data](https://github.com/app-generator/django-simple-charts/blob/master/sample_data/sales_data.csv)**
+
+<br>
 
 ## Code-base structure
 
