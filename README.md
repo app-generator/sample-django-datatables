@@ -95,7 +95,7 @@ To do this just click on ```IMPORT``` button then select your csv, xls or etc fi
 
 > Sample **[Data](https://github.com/app-generator/django-datatables-sample/blob/master/media/transactions_data.csv)**
 
-### Transaction Datatable
+### Datatable for transactions
 * Imported information is displayed in the **Transactions** section. 
 
 ![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_1.png)
