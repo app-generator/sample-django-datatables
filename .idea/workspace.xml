@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a99d1d7-ad34-4939-80e9-637ffdb6e7f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/transactions_screenshot_3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-1327">
-                <caret line="53" column="180" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="180" />
+              <first_editor relative-caret-position="300">
+                <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
                 <folding>
                   <element signature="e#3813#4545#0" />
                   <element signature="e#4803#7287#0" />
@@ -253,18 +251,18 @@
       <updated>1605801127172</updated>
       <workItem from="1605801128601" duration="6137000" />
       <workItem from="1605816439411" duration="4000" />
-      <workItem from="1605816571978" duration="50050000" />
+      <workItem from="1605816571978" duration="51386000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56191000" />
+    <option name="totallyTimeSpent" value="57527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1299" height="743" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18435754" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18435754" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -532,8 +530,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1327">
-            <caret line="53" column="180" lean-forward="true" selection-start-line="53" selection-start-column="65" selection-end-line="53" selection-end-column="180" />
+          <first_editor relative-caret-position="300">
+            <caret line="104" column="26" lean-forward="true" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
             <folding>
               <element signature="e#3813#4545#0" />
               <element signature="e#4803#7287#0" />

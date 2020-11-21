@@ -49,10 +49,6 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt/master/media/django-dashboard-volt-screen.png)
 
-![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_1.png)
-
-![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_2.png)
-
 <br />
 
 ## How to use it
@@ -92,13 +88,26 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 
 ## Load Data For Datatable
 
-In Django admin, you can import data for the **Sales** section. 
+In Django admin, you can import data for the **Transaction** section. 
 To do this just click on ```IMPORT``` button then select your csv, xls or etc file and submit it.
 
-![Import Data](https://raw.githubusercontent.com/app-generator/django-simple-charts/master/media/admin_import.png)
+![Import Data](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_3.png)
 
-> Sample **[Data](https://github.com/app-generator/django-simple-charts/blob/master/sample_data/sales_data.csv)**
+> Sample **[Data](https://github.com/app-generator/django-datatables-sample/blob/master/media/transactions_data.csv)**
 
+### Transaction Datatable
+* Imported information is displayed in the **Transactions** section. 
+
+![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_1.png)
+
+* In this section, you can *search*, *edit*, and *delete* the transactions. The added features of this **datatable** are:
+    - Paginated information (transaction page) with usable controls: PREV, 1,2,3., NEXT
+    - Search box to filter
+    - Delete row control
+    - edit cel data on double click and ENTER on confirm.
+
+![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_2.png)
+ 
 <br>
 
 ## Code-base structure
