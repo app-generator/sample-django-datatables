@@ -1,50 +1,20 @@
-# [Django Dashboard](http://appseed.us/admin-dashboards/django) - Volt Bootstrap 5
+# [Django Datatables Sample](https://django-datatables-sample.appseed.us/) - LIVE Demo
 
-Open-Source **Django Dashboard** coded with basic modules, database, ORM and deployment scripts on top of **[Volt Dashboard](https://docs.appseed.us/bootstrap-template/volt-dashboard/)** (free version), a modern Bootstrap dashboard design. Volt is a free and open source Bootstrap 5 Admin Dashboard featuring over 100 components, 11 example pages and 3 customized plugins. **Volt does not require jQuery** as a dependency meaning that every library and script's are jQuery free.
+> Playground starter to manage a data table in Django: 
 
-<br />
-
-> Features
-
-- SQLite Database, Django Native ORM
-- Modular design, clean codebase
-- Session-Based Authentication, Forms validation
+- Load sample data using admin section
+- Inline rows edit activated at double click
+- Pagination and Search  
 - Deployment scripts: Docker, Gunicorn / Nginx
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup).
+- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) provided by **AppSeed**
 
 <br />
 
 > Links
 
-- [Django Dashboard Volt](https://appseed.us/admin-dashboards/django-dashboard-volt) - product page
-- [Django Dashboard Volt - Demo](https://django-dashboard-volt.appseed.us/) - LIVE deployment
-- [Django Dashboard Volt - Docs](https://docs.appseed.us/admin-dashboards/django-dashboard-volt/) - Product documentation
-- **[Django Dashboard Volt PRO](https://appseed.us/admin-dashboards/django-dashboard-volt-pro?ref=dev)** - Premium version
+- [LIVE Demo](https://django-simple-charts.appseed.us/) - project in action
+- [Volt Django Dashboard]https://appseed.us/admin-dashboards/django-dashboard-volt) - the initial starter
 
-<br />
-
-## UI Kit - **[Volt Dashboard](https://docs.appseed.us/bootstrap-template/volt-dashboard/)**
-
-Volt is a free and open source **Bootstrap 5** powered admin dashboard with components, pages and plugins that you can use to create an awesome admin interfaces. It also comes with a pro version with more pages, plugins and components.
-
-**100+ Components, 11 Sample pages** - There are more than 100 free Bootstrap 5 components included some of them being buttons, alerts, modals, datepickers, all nicely documented via the official components docs. Volt brings 11 example pages including an overview, sign in, sign up, transactions page and many more.
-
-**Tooling** - Sass files and a Gulp commands file that will let you build minified and un-minified project files with the ability to even add certain blocks of code based on your environment.
-
-- [Product Page](https://themesberg.com/product/admin-dashboard/volt-bootstrap-5-dashboard) - hosted by [Themesberg](https://appseed.us/agency/themesberg)
-- [Product Docs - Quick Start](https://themesberg.com/docs/volt-bootstrap-5-dashboard/getting-started/quick-start/) - official product documentation
-
-<br />
-
-## Want more? Go PRO!
-
-PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Support** (via [Discord](https://discord.gg/fZC6hup))
-
-| [Django Gradient PRO](https://appseed.us/admin-dashboards/django-dashboard-gradient-pro) | [Django Dashboard Black PRO](https://appseed.us/admin-dashboards/django-dashboard-black-pro) | [Django Dashboard Argon PRO](https://appseed.us/admin-dashboards/django-dashboard-argon-pro) |
-| --- | --- | --- |
-| [![Django Gradient PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-gradient-pro/master/media/django-dashboard-gradient-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-gradient-pro) | [![Django Dashboard Black PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-black-pro/master/media/django-dashboard-black-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-black-pro) | [![Django Dashboard Argon PRO](https://raw.githubusercontent.com/app-generator/django-dashboard-argon-pro/master/media/django-dashboard-argon-pro-screen.png)](https://appseed.us/admin-dashboards/django-dashboard-argon-pro)
-
-<br />
 <br />
 
 ![Django Dashboard Volt - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt/master/media/django-dashboard-volt-screen.png)
@@ -55,8 +25,8 @@ PRO versions include **Premium UI Kits**, Lifetime updates and **24/7 LIVE Suppo
 
 ```bash
 $ # Get the code
-$ git clone https://github.com/app-generator/django-dashboard-volt.git
-$ cd django-dashboard-volt
+$ git clone https://github.com/app-generator/django-datatables-sample.git
+$ cd django-datatables-sample
 $
 $ # Virtualenv modules installation (Unix based systems)
 $ virtualenv env
@@ -72,6 +42,9 @@ $
 $ # Create tables
 $ python manage.py makemigrations
 $ python manage.py migrate
+$
+$ # Create app superuser
+$ python manage.py createsuperuser
 $
 $ # Start the application (development mode)
 $ python manage.py runserver # default port 8000
@@ -93,7 +66,7 @@ To do this just click on ```IMPORT``` button then select your csv, xls or etc fi
 
 ![Import Data](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/transactions_screenshot_3.png)
 
-> Sample **[Data](https://github.com/app-generator/django-datatables-sample/blob/master/media/transactions_data.csv)**
+> Sample **[Data](https://github.com/app-generator/django-datatables-sample/blob/master/sample_data/transactions_data.csv)**
 
 ### Datatable for transactions
 * Imported information is displayed in the **Transactions** section. 
@@ -188,8 +161,8 @@ The application can be easily executed in a docker container. The steps:
 > Get the code
 
 ```bash
-$ git clone https://github.com/app-generator/django-dashboard-volt.git
-$ cd django-dashboard-volt
+$ git clone https://github.com/app-generator/django-datatables-sample.git
+$ cd django-datatables-sample
 ```
 
 > Start the app in Docker
@@ -254,4 +227,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Django Dashboard Volt](https://appseed.us/admin-dashboards/django-dashboard-volt) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Django Datatables Sample](https://django-datatables-sample.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
