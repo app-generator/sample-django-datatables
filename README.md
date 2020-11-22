@@ -13,7 +13,7 @@
 > Links
 
 - [LIVE Demo](https://django-simple-charts.appseed.us/) - project in action
-- [Volt Django Dashboard]https://appseed.us/admin-dashboards/django-dashboard-volt) - the initial starter
+- [Volt Django Dashboard](https://appseed.us/admin-dashboards/django-dashboard-volt) - the initial starter
 
 <br />
 
