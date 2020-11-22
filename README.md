@@ -17,7 +17,7 @@
 
 <br />
 
-![Django Datatables Sample - Playground starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-dashboard-volt/master/media/django-datatables-sample-intro.gif)
+![Django Datatables Sample - Playground starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/django-datatables-sample-intro.gif)
 
 <br />
 
