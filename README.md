@@ -1,4 +1,4 @@
-# [Django Datatables Sample](https://django-datatables-sample.appseed.us/) - LIVE Demo
+# [Django Datatables Sample](https://django-datatables-sample.appseed.us/)
 
 > Playground starter to manage a data table in Django: 
 
