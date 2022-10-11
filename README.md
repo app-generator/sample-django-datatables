@@ -1,6 +1,6 @@
 # [Django Datatables Sample](https://django-datatables-sample.appseed.us/)
 
-> Playground starter to manage a DataRable in Django - [LIVE Demo](https://django-datatables-sample.appseed.us/)
+> Playground starter to manage a DataTable in **Django** - [LIVE Demo](https://django-datatables-sample.appseed.us/)
 
 - ✅ Load sample data using admin section
 - ✅ Inline rows edit activated at double click
