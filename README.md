@@ -1,19 +1,12 @@
 # [Django Datatables Sample](https://django-datatables-sample.appseed.us/)
 
-> Playground starter to manage a data table in Django: 
+> Playground starter to manage a DataRable in Django - [LIVE Demo](https://django-datatables-sample.appseed.us/)
 
-- Load sample data using admin section
-- Inline rows edit activated at double click
-- Pagination and Search  
-- Deployment scripts: Docker, Gunicorn / Nginx
-- Support via **Github** (issues tracker) and [Discord](https://discord.gg/fZC6hup) provided by **AppSeed**
-
-<br />
-
-> Links
-
-- [LIVE Demo](https://django-datatables-sample.appseed.us/) - project in action
-- [Volt Django Dashboard](https://appseed.us/admin-dashboards/django-dashboard-volt) - the initial starter
+- ✅ Load sample data using admin section
+- ✅ Inline rows edit activated at double click
+- ✅ Pagination and Search  
+- ✅ Deployment scripts: `Docker`
+- ✅ Free [Support](https://appseed.us/support/) via `Email` and `Discord`
 
 <br /> 
 
