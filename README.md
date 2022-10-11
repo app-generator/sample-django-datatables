@@ -15,11 +15,15 @@
 - [LIVE Demo](https://django-datatables-sample.appseed.us/) - project in action
 - [Volt Django Dashboard](https://appseed.us/admin-dashboards/django-dashboard-volt) - the initial starter
 
-<br />
+<br /> 
 
-![Django Datatables Sample - Playground starter provided by AppSeed.](https://raw.githubusercontent.com/app-generator/django-datatables-sample/master/media/django-datatables-sample-intro.gif)
+> 🚀 `PROMO`: **[Junior Developers Starter KIT](https://www.creative-tim.com/product/buy/bundle/junior-bundle?AFFILIATE=128200)** `85%OFF`
 
-<br />
+The package includes a `rock-solid collection of premium assets` (**Kits & Dashboards**) that can be used to build eye-catching portfolios and web apps in no time.
+
+[![Junior Developers Starter KIT](https://user-images.githubusercontent.com/51854817/195055646-e55200cd-0ddd-4bdd-aded-0d4e4479789b.png)](https://www.creative-tim.com/product/buy/bundle/junior-bundle?AFFILIATE=128200)
+
+<br /> 
 
 ## How to use it
 
