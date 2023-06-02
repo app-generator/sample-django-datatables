@@ -1,12 +1,12 @@
 asgiref
 autopep8
-django==2.2.10
+django
 pycodestyle
 pytz
 sqlparse
 Unipath
 dj-database-url
-python-decouple
+python-dotenv
 gunicorn
 whitenoise
 django-import-export
