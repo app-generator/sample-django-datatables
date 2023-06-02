@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.2] 2023-06-02
+### Changes
+
+- Fix AJAX calls
+- Added `Middleware` for Ajax
+
 ## [1.0.1] 2023-06-02
 ### Changes
 
