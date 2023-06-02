@@ -33,6 +33,12 @@
                                 </p>    
                             </div>
                             
+                            {% if success %}
+
+                                <a href="{% url 'login' %}" class="btn btn-block btn-primary">Sign IN</a>
+
+                            {% else %}
+
                             <form method="post" action="">
                             
                                 {% csrf_token %}
@@ -95,8 +101,12 @@
                                     </div>
                                     
                                 </div>
-                                <button type="submit" name="register" class="btn btn-block btn-primary">Sign in</button>
+                                <button type="submit" name="register" class="btn btn-block btn-primary">Sign UP</button>
                             </form>
+
+                            {% endif %}
+
+
                             <div class="d-flex justify-content-center align-items-center mt-4">
                                 <span class="font-weight-normal">
                                     &copy; <a  href="https://themesberg.com" target="_blank">Themesberg</a> 
