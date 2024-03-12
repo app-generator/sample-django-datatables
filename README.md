@@ -1,12 +1,27 @@
 # [Django Datatables Sample](https://django-datatables-sample.appseed.us/)
 
-> Playground starter to manage a DataTable in **Django** - [LIVE Demo](https://django-datatables-sample.appseed.us/)
+Open-source DataTables Codebase powered by Django and actively supported by AppSeed. 
 
-- ✅ Load sample data using admin section
-- ✅ Inline rows edit activated at double click
-- ✅ Pagination and Search  
-- ✅ Deployment scripts: `Docker`
-- ✅ Free [Support](https://appseed.us/support/) via `Email` and `Discord`
+## Features
+
+> `Have questions?` Contact **[Support](https://appseed.us/support/)** (Email & Discord) provided by **AppSeed**
+
+| Free Version                          | [PRO Version](https://appseed.us/product/volt-dashboard-pro/django/)    | [Custom Development](https://appseed.us/custom-development/) |  
+| --------------------------------------| --------------------------------------| --------------------------------------|
+| ✓ **DataTables**                      | **Everything in Free**, plus:                                                                  | **Everything in PRO**, plus:         |
+| ✓ Best Practices                      | ✅ **Premium Bootstrap 5 Design**                                                              | ✅ **1mo Custom Development**       | 
+| ✓ Bootstrap 5 Design                  | ✅ `OAuth` Google, GitHub                                                                      | ✅ **Team**: PM, Developer, Tester  |
+| ✓ `CI/CD` Flow via Render             | ✅ `API`, **[Charts](https://django-volt-dashboard-pro.onrender.com/charts/)**                 | ✅ Weekly Sprints                   |
+| ✓ `Docker`                            | ✅ **[DataTables](https://django-volt-dashboard-pro.onrender.com/tables/)** (Filters, Export)  | ✅ Technical SPECS                  |
+| -                                     |✅ **Celery**                                                                                   | ✅ Documentation                    |
+| -                                     | ✅ **Media Files Manager**                                                                     | ✅ **30 days Delivery Warranty**    |
+| -                                     | ✅ **Extended User Profiles**                                                                  |  -                                   |
+| -                                     | ✅ `Private REPO Access`                                                                       |  -                                   |
+| -                                     | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)                            |  -                                   |
+| -                                     | ✅ Deployment Assistance                                                                       |  -                                   |
+| -                                     | -                                                                                              |  -                                   |
+| ------------------------------------  | ------------------------------------                                                           | ------------------------------------|
+| -   | 🚀 [LIVE Demo](https://django-volt-dashboard-pro.onrender.com/) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |    
 
 <br />
 
