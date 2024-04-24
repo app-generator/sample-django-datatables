@@ -21,7 +21,7 @@ Open-source DataTables Codebase powered by Django and actively supported by AppS
 | -                                     | ✅ Deployment Assistance                                                                       |  -                                   |
 | -                                     | -                                                                                              |  -                                   |
 | ------------------------------------  | ------------------------------------                                                           | ------------------------------------|
-| -   | 🚀 [LIVE Demo](https://django-volt-dashboard-pro.onrender.com/) | 🛒 `Order`: **[$3,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |    
+| -   | 🚀 [LIVE Demo](https://django-volt-dashboard-pro.onrender.com/) | 🛒 `Order`: **[$4,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |    
 
 <br />
 
