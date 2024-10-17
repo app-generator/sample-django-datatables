@@ -1,27 +1,18 @@
-# [Django Datatables Sample](https://django-datatables-sample.appseed.us/)
+# Django Datatables Sample 
 
-Open-source DataTables Codebase powered by Django and actively supported by AppSeed. 
+Simple Django starter that implements a server-side paginated view - Styled with Bootstrap 5.  
 
-## Features
+- 👉 Demo: https://django-datatables-sample.appseed.us/
 
-> `Have questions?` Contact **[Support](https://appseed.us/support/)** (Email & Discord) provided by **AppSeed**
+---
 
-| Free Version                          | [PRO Version](https://appseed.us/product/volt-dashboard-pro/django/)    | [Custom Development](https://appseed.us/custom-development/) |  
-| --------------------------------------| --------------------------------------| --------------------------------------|
-| ✓ **DataTables**                      | **Everything in Free**, plus:                                                                  | **Everything in PRO**, plus:         |
-| ✓ Best Practices                      | ✅ **Premium Bootstrap 5 Design**                                                              | ✅ **1mo Custom Development**       | 
-| ✓ Bootstrap 5 Design                  | ✅ `OAuth` Google, GitHub                                                                      | ✅ **Team**: PM, Developer, Tester  |
-| ✓ `CI/CD` Flow via Render             | ✅ `API`, **[Charts](https://django-volt-dashboard-pro.onrender.com/charts/)**                 | ✅ Weekly Sprints                   |
-| ✓ `Docker`                            | ✅ **[DataTables](https://django-volt-dashboard-pro.onrender.com/tables/)** (Filters, Export)  | ✅ Technical SPECS                  |
-| -                                     |✅ **Celery**                                                                                   | ✅ Documentation                    |
-| -                                     | ✅ **Media Files Manager**                                                                     | ✅ **30 days Delivery Warranty**    |
-| -                                     | ✅ **Extended User Profiles**                                                                  |  -                                   |
-| -                                     | ✅ `Private REPO Access`                                                                       |  -                                   |
-| -                                     | ✅ **PRO Support** - [Email & Discord](https://appseed.us/support/)                            |  -                                   |
-| -                                     | ✅ Deployment Assistance                                                                       |  -                                   |
-| -                                     | -                                                                                              |  -                                   |
-| ------------------------------------  | ------------------------------------                                                           | ------------------------------------|
-| -   | 🚀 [LIVE Demo](https://django-volt-dashboard-pro.onrender.com/) | 🛒 `Order`: **[$4,999](https://appseed.gumroad.com/l/rocket-package)** (GUMROAD) |    
+> For a **complete set of features** and long-term support, we've released **[Dynamic Django](https://app-generator.dev/docs/developer-tools/dynamic-django/index.html)**, a starter that incorporates the following:
+
+- ✅ [Dynamic DataTables](https://app-generator.dev/docs/developer-tools/dynamic-django/datatables.html): using a single line of configuration, the data saved in any table is automatically managed
+- ✅ [Dynamic API](https://app-generator.dev/docs/developer-tools/dynamic-django/api.html): any model can become a secure API Endpoint using DRF
+- ✅ [Dynamic Charts](https://app-generator.dev/docs/developer-tools/dynamic-django/charts.html): extract relevant charts without coding all major types are supported
+- ✅ [CSV Loader](https://app-generator.dev/docs/developer-tools/dynamic-django/csv-loader.html): translate CSV files into Django Models and (optional) load the information
+- ✅ Powerful [CLI Tools](https://app-generator.dev/docs/developer-tools/dynamic-django/cli.html) for the GIT interface, configuration editing, updating the configuration and database (create models, migrate DB)
 
 <br />
 
