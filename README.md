@@ -6,7 +6,7 @@ Simple Django starter that implements a server-side paginated view - Styled with
 
 ---
 
-> For a **complete set of features** and long-term support, the **[Dynamic Django](https://app-generator.dev/docs/developer-tools/dynamic-django/index.html)**, is a powerful starter that incorporates the following:
+> For a **complete set of features** and long-term support, check out **[Dynamic Django](https://app-generator.dev/docs/developer-tools/dynamic-django/index.html)**, a powerful starter that incorporates the following:
 
 - ✅ [Dynamic DataTables](https://app-generator.dev/docs/developer-tools/dynamic-django/datatables.html): using a single line of configuration, the data saved in any table is automatically managed
 - ✅ [Dynamic API](https://app-generator.dev/docs/developer-tools/dynamic-django/api.html): any model can become a secure API Endpoint using DRF
